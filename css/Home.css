@@ -1,0 +1,10 @@
+body {
+    background-color: white;
+}
+/* fonts */
+	@font-face {
+		src: url(../font/main.otf);
+		font-family: main;
+	}
+
+/* fonts */
