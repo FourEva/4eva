@@ -1,10 +1,58 @@
 body {
     background-color: white;
 }
+a {
+	color: inherit;
+	text-decoration: none;
+}
 /* fonts */
 	@font-face {
-		src: url(../font/main.otf);
 		font-family: main;
+		src: url(../font/main.otf);
 	}
-
+	@font-face {
+		font-family: texts;
+		src: url(../font/text.otf);
+	}
 /* fonts */
+
+/* main */
+	.banner {
+		display: inline-flex;
+		font-family: texts;
+		font-size: 3vmin;
+	}
+	.space {
+		margin-left: 3vmin;
+		margin-top: 3.5vmin;
+	}
+	.logo {
+		width: 20vmin;
+	}
+	.end {
+		position: absolute;
+		right: 0;
+		margin-right: 3vmin;
+		margin-top: 0.5vmin;
+	}
+	.overlapText {
+		font-family: texts;
+		font-size: 7.5vmin;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top: -5vmin;
+		margin-left: -8vmin;
+	}
+	/* bg text */
+		.bgText {
+			font-size: 37vmin;
+			font-family: main;
+			color: #df00ba;
+		}
+		br.bg {
+   			display: block;
+   			margin: -8vmin 0;
+		}
+	/* bg text */
+/* main */
