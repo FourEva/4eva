@@ -1,8 +1,17 @@
+var loader = document.getElementsByClassName("loading")[0];
+
+document.body.style.overflow = 'hidden';
+
 window.onload = () => {
-	console.log('putting shit here soon -Sk8');
+	setTimeout(() => {
+        loader.style.animation = 'fadeOut 0.3s forwards';
+        document.body.style.overflowY = 'auto';
+    }, 500);
+    setTimeout(() => {
+        loader.style.display = 'none';
+    }, 600);
 }
 
-// fade out effect on window refresh
 window.onbeforeunload = () => {
-    document.body.style.animation = 'fadeOut 0.3s forwards';
+    window.scrollTo(0, 0);
 }

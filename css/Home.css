@@ -1,6 +1,7 @@
 body {
 	margin: 0;
-   	background-color: white;
+   	background-color: #a597e3;
+	overflow: hidden;
 }
 a {
 	color: inherit;
@@ -34,6 +35,24 @@ a {
 	}
 /* fonts */
 
+/* loading */
+	.loading {
+		height: 100%;
+		width: 100%;
+		background-color: #a597e3;
+		position: absolute;
+		z-index: 99999;
+	}
+	#four {
+		width: 15vmin;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top: -15vmin;
+		margin-left: -9vmin;
+	}
+/* loading */
+
 /* main */
 	.banner {
 		display: inline-flex;
@@ -45,7 +64,8 @@ a {
 		margin-top: 3.5vmin;
 	}
 	.logo {
-		width: 20vmin;
+		margin-top: 1vmin;
+		width: 15vmin;
 	}
 	.end {
 		position: absolute;
@@ -66,7 +86,7 @@ a {
 		.bgText {
 			font-size: 37vmin;
 			font-family: main;
-			color: #df00ba;
+			color: whitesmoke;
 		}
 		br.bg {
    			display: block;
@@ -74,37 +94,47 @@ a {
 		}
 	/* bg text */
 /* main */
-/* description */
-		.mainDesc {
-			font-family: monospace;
-			font-size: 2vmin;
-		}
-		.clientTitle {
-			font-family: main;
-			font-size: 5vmin;
-			font-weight: light;
-		}
-		.sitesList {
-			position: relative;
-			display: inline-flex;
-			left: 50%;
-			margin-left: -25vmin;
-		}
-		.jay {
-			height: 15vmin;
-		}
-		.bright {
-			height: 15vmin;
-		}
-/* description */
 /* footer */
 		footer {
-			padding: 0;
+			border-radius: 10vmin 10vmin 0vmin 0vmin;
 			margin: 0;
-			margin-top: 5vmin;
-			height: 40vmin;
 			width: 100%;
-			background-color: black;
-			color: white;
+			background-color: white;
+			color: black;
+		}
+		.foot-text {
+			font-size: 4vmin;
+			display: flex;
+			font-family: texts;
+			justify-content: center;
+			align-items: center;
+			margin-left: -10vmin;
+			padding-bottom: 5vmin;
+		}
+		.touch {
+			margin-left: 10vmin;
+			margin-right: 10vmin;
+		}
+		.connect {
+			margin-top: 6.5vmin;
+		}
+		h6 {
+			margin: 0;
+			padding: 0;
+		}
+		#touch-text {
+			opacity: 0.7;
+		}
+		#connect-text {
+			opacity: 0.7;
+		}
+		.bottom-text {
+			font-size: 2vmin;
+			font-family: texts;
+			opacity: 0.7;
+			position: absolute;
+			left: 50%;
+			margin-left: -42vmin;
+			margin-top: -10vmin;
 		}
 /* footer */
