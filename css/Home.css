@@ -14,6 +14,13 @@ a {
     	-o-user-select: none;
    	 user-select: none;
 }
+.selectEnable {
+	-webkit-user-select: text;
+	-khtml-user-select: text;
+	-moz-user-select: text;
+	-o-user-select: text;
+	user-select: text;
+}
 /* animations */
 	@keyframes fadeOut {
 		from {
@@ -65,6 +72,7 @@ a {
 	}
 	.logo {
 		margin-top: 1vmin;
+		margin-left: 1vmin;
 		width: 15vmin;
 	}
 	.end {
