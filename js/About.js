@@ -15,9 +15,3 @@ window.onload = () => {
 window.onbeforeunload = () => {
     window.scrollTo(0, 0);
 }
-
-// clickables
-
-function About() {
-    
-}

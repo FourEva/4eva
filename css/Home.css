@@ -38,7 +38,7 @@ a {
 	}
 	@font-face {
 		font-family: texts;
-		src: url(../font/text.otf);
+		src: url(../font/text.ttf);
 	}
 /* fonts */
 
@@ -64,7 +64,7 @@ a {
 	.banner {
 		display: inline-flex;
 		font-family: texts;
-		font-size: 3vmin;
+		font-size: 3.5vmin;
 	}
 	.space {
 		margin-left: 3vmin;
@@ -102,6 +102,58 @@ a {
 		}
 	/* bg text */
 /* main */
+
+/* desc */
+	.description {
+		width: 100%;
+		font-size: 5vmin;
+		font-family: texts;
+		text-align: center;
+		padding-top: 30vmin;
+		padding-bottom: 30vmin;
+		font-weight: bolder;
+	}
+	.large-desc-text {
+		display: inline-block;
+		text-align: left;
+	}
+	.work-text {
+		text-align: left;
+		margin-left: 16vmin;
+	}
+
+	.work-icon:nth-child(1) {
+		width: 20vmin;
+	}
+
+	.work-iconOne {
+		width: 20vmin;
+		margin-right: 15vmin;
+		opacity: 1;
+		transition: 0.2s;
+		transition-property: opacity;
+		filter: invert();
+	}
+	.work-iconTwo {
+		width: 10vmin;
+		opacity: 1;
+		transition: 0.2s;
+		transition-property: opacity;
+		filter: invert();
+	}
+
+	.work-iconOne:hover {
+		transition: 0.2s;
+		transition-property: opacity;
+		opacity: 0.5;
+	}
+	.work-iconTwo:hover {
+		transition: 0.2s;
+		transition-property: opacity;
+		opacity: 0.5;
+	}
+/* desc */
+
 /* footer */
 		footer {
 			border-radius: 10vmin 10vmin 0vmin 0vmin;
@@ -147,7 +199,7 @@ a {
 			opacity: 0.7;
 			position: absolute;
 			left: 50%;
-			margin-left: -41.5vmin;
+			margin-left: -39.5vmin;
 			margin-top: -10vmin;
 		}
 /* footer */
