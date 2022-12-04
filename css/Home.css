@@ -110,7 +110,7 @@ a {
 		font-family: texts;
 		text-align: center;
 		padding-top: 30vmin;
-		padding-bottom: 30vmin;
+		padding-bottom: 10vmin;
 		font-weight: bolder;
 	}
 	.large-desc-text {
@@ -122,13 +122,16 @@ a {
 		margin-left: 16vmin;
 	}
 
-	.work-icon:nth-child(1) {
-		width: 20vmin;
+	.work-images {
+		position: relative;
+		left: 50%;
+		margin-left: -40vmin;
+		margin-top: 5vmin;
 	}
 
 	.work-iconOne {
 		width: 20vmin;
-		margin-right: 15vmin;
+		margin-right: 30vmin;
 		opacity: 1;
 		transition: 0.2s;
 		transition-property: opacity;
