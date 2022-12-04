@@ -157,10 +157,11 @@ user-select: text;
 		footer {
 			border-radius: 10vmin 10vmin 0vmin 0vmin;
 			margin: 0;
-			width: 100%;
+			width: 102%;
 			background-color: red;
 			color: white;
             margin-bottom: -1.3vmin;
+            margin-left: -1.5vmin;
 		}
 		.logoFoot {
 			margin-top: -2vmin;
