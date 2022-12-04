@@ -109,51 +109,13 @@ a {
 		font-size: 5vmin;
 		font-family: texts;
 		text-align: center;
-		padding-top: 30vmin;
-		padding-bottom: 10vmin;
+		padding-top: 20vmin;
+		padding-bottom: 30vmin;
 		font-weight: bolder;
 	}
 	.large-desc-text {
 		display: inline-block;
 		text-align: left;
-	}
-	.work-text {
-		text-align: left;
-		margin-left: 16vmin;
-	}
-
-	.work-images {
-		position: relative;
-		left: 50%;
-		margin-left: -40vmin;
-		margin-top: 5vmin;
-	}
-
-	.work-iconOne {
-		width: 20vmin;
-		margin-right: 30vmin;
-		opacity: 1;
-		transition: 0.2s;
-		transition-property: opacity;
-		filter: invert();
-	}
-	.work-iconTwo {
-		width: 10vmin;
-		opacity: 1;
-		transition: 0.2s;
-		transition-property: opacity;
-		filter: invert();
-	}
-
-	.work-iconOne:hover {
-		transition: 0.2s;
-		transition-property: opacity;
-		opacity: 0.5;
-	}
-	.work-iconTwo:hover {
-		transition: 0.2s;
-		transition-property: opacity;
-		opacity: 0.5;
 	}
 /* desc */
 
